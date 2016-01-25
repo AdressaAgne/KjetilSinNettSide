@@ -1,6 +1,17 @@
 @import "_vars";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
 
 body{
     background-color: $background;
+}
+
+.container {
+	width: 960px;
+    margin: 0 auto;
 }
