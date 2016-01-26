@@ -20,29 +20,46 @@ html(lang="en")
                     li.menu__item Ball
         .header
             .col-md-8.col-sm-10.col-md-push-2.col-sm-push-1
-                h1 Header kjetil Gjersvold
+                h1 Wlecome to my Portfolio!
             
         .col-md-8.col-sm-10.col-md-push-2.col-sm-push-1
             h2 My Latest Work
             .row
                 .col-md-6.col-sm-6.col-lg-4
                     .card
+                        .card__video
+                            video(autoplay, loop, muted, preload, poster="img/torbot1.jpg")
+                                source(src="video/bird.mp4")
+                        .card__description
+                            h3 Bird Waggle
+                            p BIRD! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
+                        .card__btbContainer 
+                            a(href="#").btn View more
+            
+                .col-md-6.col-sm-6.col-lg-4
+                    .card
                         .card__header(style="background-image: url('img/torbot1.jpg');")
-                        .card__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
+                        .card__description 
+                            h3 Torbot 1
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
                         .card__btbContainer 
                             a(href="#").btn View more
 
                 .col-md-6.col-sm-6.col-lg-4
                     .card
                         .card__header(style="background-image: url('img/torbot2.jpg');")
-                        .card__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
+                        .card__description
+                            h3 Torbot 2
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
                         .card__btbContainer 
                             a(href="#").btn View more
 
                 .col-md-6.col-sm-6.col-lg-4
                     .card
                         .card__header(style="background-image: url('img/torbot3.jpg');")
-                        .card__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
+                        .card__description 
+                            h3 Torbot 3
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
                         .card__btbContainer 
                             a(href="#").btn View more
         

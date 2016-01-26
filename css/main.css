@@ -23,11 +23,14 @@ body {
     background-size: cover;
     width: 100%;
     height: 200px;
-    background-position: center center; }
+    background-position: center; }
   .card__description {
     padding: 20px; }
   .card__btbContainer {
     padding: 20px; }
+  .card__video video {
+    width: 100%;
+    border-radius: 3px 3px 0px 0px; }
 
 .menu {
   width: 100%;
@@ -57,5 +60,5 @@ body {
   font-weight: bold;
   text-transform: uppercase; }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
   margin: 2ex 0px; }
