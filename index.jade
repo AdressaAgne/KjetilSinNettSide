@@ -2,22 +2,49 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        title pageTitle
+        meta(name="theme-color", content="#123349")
+        meta(name="author", content="Agne Ødegaard")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+        meta(name="format-derection", content="telephone=no")
+        title KjetilGjersvold.com
         link(rel="stylesheet", href="css/main.css")
+        link(rel="stylesheet", href="css/bootstrap.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,700")
     body
         .menu
-            .container
+            .col-md-8.col-sm-10.col-md-push-2.col-sm-push-1
                 ul.menu__list
                     li.menu__item.menu__item--first About
                     li.menu__item Work
                     li.menu__item Contact
                     li.menu__item Ball
         .header
-            .container
+            .col-md-8.col-sm-10.col-md-push-2.col-sm-push-1
                 h1 Header kjetil Gjersvold
             
-        .container
-            h1 kjetil Gjersvold
+        .col-md-8.col-sm-10.col-md-push-2.col-sm-push-1
+            h2 My Latest Work
+            .row
+                .col-md-6.col-sm-6.col-lg-4
+                    .card
+                        .card__header(style="background-image: url('img/torbot1.jpg');")
+                        .card__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
+                        .card__btbContainer 
+                            a(href="#").btn View more
+
+                .col-md-6.col-sm-6.col-lg-4
+                    .card
+                        .card__header(style="background-image: url('img/torbot2.jpg');")
+                        .card__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
+                        .card__btbContainer 
+                            a(href="#").btn View more
+
+                .col-md-6.col-sm-6.col-lg-4
+                    .card
+                        .card__header(style="background-image: url('img/torbot3.jpg');")
+                        .card__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio esse dolorum tempore libero atque mollitia autem ut suscipit a, corporis provident, possimus expedita rem repellendus omnis officiis, explicabo tempora voluptatibus.
+                        .card__btbContainer 
+                            a(href="#").btn View more
         
         script(src="js/min/main-min.js")
         script(src="js/min/jquery-1.12.0.min.js")
