@@ -51,8 +51,9 @@ body {
 .header {
   height: 30vh;
   background-color: #123349;
-  padding-top: 100px;
-  color: #e5e5ea; }
+  color: #e5e5ea;
+  overflow: hidden;
+  padding-top: 100px; }
 
 .btn {
   text-decoration: none;
